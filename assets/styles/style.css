@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/daniel-leone-g30P1zcOzXo-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 100vh;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+}
+
+.theme-switch {
+  background: linear-gradient(to right, rgb(242, 26, 6), rgb(254, 213, 5));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: solid rgb(255, 111, 0) 0.125rem;
+  border-radius: 0.9375rem;
+  font-size: 5rem;
+  margin-bottom: 12.5rem;
+  margin-top: 6.25rem;
+  transform: transform 2s ease-in-out;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.theme-switch:hover {
+  transform: scale(1.3);
+}
+
+.flex__container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container a {
+  background-color: #fff;
+  display: inline-block;
+  height: 100px;
+  margin: 1.25rem;
+  position: relative;
+  width: 300px;
+}
+
+.container a::before,
+.container a::after {
+  background: #f00;
+  content: " ";
+  inset: 0;
+  position: absolute;
+  transition: 0.5s;
+}
+
+.container a:nth-child(1)::before,
+.container a:nth-child(1)::after {
+  background: linear-gradient(45deg, rgb(242, 26, 6), rgb(254, 213, 5));
+}
+
+.container a:hover:before {
+  inset: -3px;
+}
+
+.container a:hover:after {
+  filter: blur(10px);
+  inset: -3px;
+}
+
+.container a span {
+  align-items: center;
+  background-color: #525152;
+  color: #fff;
+  display: inline-block;
+  display: flex;
+  font-size: 1.2em;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  letter-spacing: 2px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
