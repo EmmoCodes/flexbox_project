@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container__main {
+  display: flex;
+}
+
+.container__left {
+  background-image: url("../img/cristina-gottardi-9TaYFMMapbA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.container__mid-left {
+  background-image: url("../img/ernest-imoesi-PuEh_qN50Y4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.container__mid-right {
+  background-image: url("../img/jonathan-gallegos-HoMqP_ldh-s-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.container__right {
+  background-image: url("../img/yann-lauener-CZjjHuPCvVQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+  flex-grow: 1;
+  height: 100vh;
+}
+
+div:hover {
+  filter: none;
+  flex-grow: 2;
+  transition: all 300ms ease-in-out;
+}

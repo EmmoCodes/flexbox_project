@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, darkgrey, lightgrey);
+}
+
+section {
+  margin-top: 3.125rem;
+}
+
+div {
+  width: 60%;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 0.625rem;
+}
+
+img:hover {
+  box-shadow: 0rem 0rem 0.625rem #000;
+}

@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg-imgs: #d9e8e5;
+  --color-grey: rgba(0, 0, 0, 0.8);
+}
+
+body {
+  background-color: var(--color-bg-imgs);
+  font-family: "Lato";
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #fff;
+  padding: 1.25rem 3.125rem;
+}
+
+.logo {
+  color: #000;
+  font-size: 1.5rem;
+  margin-right: 3.125rem;
+  text-decoration: none;
+}
+
+img {
+  margin-right: 0.625rem;
+}
+
+.menubar__container {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 21.875rem;
+}
+
+nav {
+  align-items: baseline;
+  display: flex;
+}
+
+.top__right {
+  display: flex;
+  margin-left: auto;
+}
+
+.top__right li {
+  padding-left: 0.9375rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding-top: 4.375rem;
+  padding-left: 6.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.image__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  row-gap: 1.25rem;
+  width: 68.75rem;
+}
+.image__gallery p {
+  padding-top: 12.5rem;
+  padding-left: 17.5rem;
+  position: absolute;
+}
