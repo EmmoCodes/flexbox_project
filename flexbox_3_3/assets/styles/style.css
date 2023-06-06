@@ -12,6 +12,7 @@
   background-image: url("../img/cristina-gottardi-9TaYFMMapbA-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   filter: grayscale(1);
   flex-grow: 1;
   height: 100vh;
