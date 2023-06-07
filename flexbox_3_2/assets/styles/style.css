@@ -56,7 +56,8 @@ nav {
   display: flex;
 }
 
-.top__right {
+.top__right,
+ul {
   display: flex;
   margin-left: auto;
 }
